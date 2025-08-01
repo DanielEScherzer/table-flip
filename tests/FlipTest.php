@@ -27,7 +27,7 @@ class TableFlipTest extends TestCase {
   }
 
   public function testThrowAll() {
-    $types = array(self::TYPE_NORMAL, self::TYPE_PUDGY, self::TYPE_AGRO, self::TYPE_SOVIET_RUSSIA);
+    $types = array(self::TYPE_NORMAL, self::TYPE_PUDGY, self::TYPE_AGRO, self::TYPE_SOVIET_RUSSIA, self::TYPE_FACEBOOK);
     foreach ($types as $type) {
       $class = self::getClass($type);
       $caught = false;
